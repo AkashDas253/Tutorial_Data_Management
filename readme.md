@@ -21,19 +21,19 @@
 - [Fact Table](lessons/fact_table/readme.md)  
 - [Dimension Table](lessons/dimension_table/readme.md)  
 
-### 📊 OLAP
+### OLAP
 - [OLAP Concepts](lessons/olap_concepts/readme.md)  
 - [OLAP Cubes](lessons/olap_cubes/readme.md)  
 
-### 🗂️ Storage & Indexing
+### Storage & Indexing
 - [Data Storage Techniques](lessons/data_storage_techniques/readme.md)  
 - [Indexing](lessons/indexing/readme.md)  
 
-### 📋 Metadata Management
+### Metadata Management
 - [Types of Metadata](lessons/types_of_metadata/readme.md)  
 - [Metadata Repository](lessons/metadata_repository/readme.md)
 
-### 🧮 Performance Tuning
+### Performance Tuning
 - [Optimization Techniques](lessons/optimization_techniques/readme.md)  
 - [Query Optimization](lessons/query_optimization/readme.md)
 
