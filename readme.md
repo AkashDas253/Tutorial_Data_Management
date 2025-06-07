@@ -10,6 +10,9 @@
 
 ### [Data Warehouse Architecture](lessons/data_warehouse_architecture/readme.md)
 
+### [Data Warehouse Design](lessons/data_warehouse_design/readme.md)
+
+### [Data Mart](lessons/data_mart/readme.md)
 
 ### [Dimensional Modelling](lessons/dimensional_modelling/readme.md)
 - [Dimensional Modelling Note](lessons/dimensional_modelling_note/readme.md)
@@ -83,9 +86,7 @@
 - [Types of OLAP](lessons/olap/lessons/olap_types/readme.md)
 - [OLAP Types](lessons/olap/lessons/olap_tools/readme.md)
 
-### [Data Warehouse Design](lessons/data_warehouse_design/readme.md)
 
-### [Data Mart](lessons/data_mart/readme.md)
 
 ### [Metadata](lessons/metadata/readme.md)
 
