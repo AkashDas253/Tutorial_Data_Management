@@ -7,17 +7,20 @@
 - [Fundamentals](lessons/fundamentals/readme.md) 
 - [Data Lake](lessons/data_lake/lessons/data_lake/readme.md)
 - [Business Intelligence](lessons/business_intelligence/readme.md)
+- [Data Mart](lessons/data_mart/readme.md)
+
+
 
 ### [Data Warehouse Architecture](lessons/data_warehouse_architecture/readme.md)
 
 ### [Data Warehouse Design](lessons/data_warehouse_design/readme.md)
 
-### [Data Mart](lessons/data_mart/readme.md)
-
 ### [Dimensional Modelling](lessons/dimensional_modelling/readme.md)
 - [Dimensional Modelling Note](lessons/dimensional_modelling_note/readme.md)
 - [Dimensional Modelling Process](lessons/dimensional_modelling_process/readme.md)
 - [Hierarchial Modelling](lessons/hierarchial_modelling/readme.md)
+
+
 
 ### [Types of Keys](lessons/key_types/readme.md) 
 - [Surrogate Key](lessons/surrogate_key/readme.md)
