@@ -1,5 +1,4 @@
-
-## 📘 ELT Process
+## ELT Process
 
 ### **Definition**
 

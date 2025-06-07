@@ -49,9 +49,21 @@
 - [Data Vault Schema](lessons/data_vault_schema/readme.md)
 
 
-### [ETL](lessons/etl/readme.md)
+### [ETL](lessons/etl/lessons/etl/readme.md)
+- [ETL Process](lessons/etl/lessons/etl_process/readme.md)
+- [ETL Extraction](lessons/etl/lessons/etl_extraction/readme.md): [ETL Extract Types](lessons/etl/lessons/etl_extract_types/readme.md)
+- [ETL Transformation](lessons/etl/lessons/etl_transformation/readme.md): [ETL Transformation Types](lessons/etl/lessons/etl_transformation_types/readme.md)
+- [ETL Load](lessons/etl/lessons/etl_load/readme.md): [ETL Transformation Types](lessons/etl/lessons/etl_load_types/readme.md)
+- [ETL Architecture](lessons/etl/lessons/etl_architecture/readme.md): [ETL Architecture Components](lessons/etl/lessons/etl_architecture_component/readme.md)
+- [ETL Tools](lessons/etl/lessons/etl_tools/readme.md)
 
-### [ETL Testing](lessons/etl_testing/readme.md)
+
+### [ETL Testing](lessons/etl/lessons/etl_testing/readme.md)
+- [ETL Testing Cycle](lessons/etl/lessons/etl_testing_cycle/readme.md)
+- [ETL Testing Types](lessons/etl/lessons/etl_testing_types/readme.md): [Data Validation Testing](lessons/etl/lessons/data_validation_testing/readme.md), [Data Completeness Testing](lessons/etl/lessons/data_completeness_testing/readme.md), [Data Transformation Testing](lessons/etl/lessons/data_transformation_testing/readme.md), [Data Integrity Testing](lessons/etl/lessons/data_integrity_testing/readme.md), [Performance Testing](lessons/etl/lessons/performance_testing/readme.md), [Regression Testing](lessons/etl/lessons/regression_testing/readme.md), [Metadata Testing](lessons/etl/lessons/metadata_testing/readme.md), [Null/Default Testing](lessons/etl/lessons/null_default_testing/readme.md), [Schema Testing](lessons/etl/lessons/schema_testing/readme.md)
+
+
+### [ELT](lessons/elt/lessons/elt/readme.md)
 
 ### [OLAP](lessons/olap/readme.md)
 
@@ -78,7 +90,7 @@
 
 ### ETL & ELT
 - [ETL Process](lessons/etl_process/readme.md)  
-- [ELT Process](lessons/elt_process/readme.md)  
+- [ELT Process](lessons/etl_process/readme.md)  
 - [ETL Tools](lessons/etl_tools/readme.md)  
 
 ### Data Modeling
