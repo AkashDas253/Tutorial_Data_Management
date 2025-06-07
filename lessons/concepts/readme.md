@@ -1,3 +1,217 @@
+## **📦 Data Warehouse – All Concepts & Subconcepts**
+
+---
+
+### **🔹 Fundamentals**
+
+* Definition of Data Warehouse
+* Characteristics
+
+  * Subject-Oriented
+  * Integrated
+  * Time-Variant
+  * Non-Volatile
+* Components
+
+  * Source Systems
+  * ETL Process
+  * Staging Area
+  * Data Warehouse Database
+  * Metadata
+  * Reporting & Analytics Tools
+
+---
+
+### **🔹 Architecture**
+
+* Basic Architecture
+* Two-tier vs Three-tier Architecture
+* Data Warehouse Layers
+
+  * Data Source Layer
+  * Data Staging Layer
+  * Data Storage Layer
+  * Data Presentation Layer
+* Architectures by Approach
+
+  * Top-down (Inmon)
+  * Bottom-up (Kimball)
+  * Hybrid
+
+---
+
+### **🔹 Data Modeling**
+
+* Dimensional Modeling
+
+  * Star Schema
+
+    * Fact Table
+    * Dimension Table
+  * Snowflake Schema
+  * Galaxy/Fact Constellation Schema
+* ER Modeling vs Dimensional Modeling
+* Normalization vs Denormalization
+
+---
+
+### **🔹 Facts**
+
+* Definition and Characteristics
+* Types
+
+  * Additive
+  * Semi-Additive
+  * Non-Additive
+* Fact Table Types
+
+  * Transaction Fact
+  * Snapshot Fact
+  * Accumulating Snapshot Fact
+* Fact Table Grain
+
+---
+
+### **🔹 Dimensions**
+
+* Definition and Characteristics
+* Types
+
+  * Conformed Dimension
+  * Junk Dimension
+  * Degenerate Dimension
+  * Role-Playing Dimension
+  * Slowly Changing Dimension (SCD)
+* SCD Types
+
+  * Type 0: No change
+  * Type 1: Overwrite
+  * Type 2: Historical row
+  * Type 3: Add column
+  * Type 4: History Table
+  * Type 6: Hybrid
+
+---
+
+### **🔹 ETL (Extract, Transform, Load)**
+
+* Extract
+
+  * Full Extraction
+  * Incremental Extraction
+  * Change Data Capture (CDC)
+* Transform
+
+  * Data Cleaning
+  * Standardization
+  * Business Rules Application
+  * Surrogate Key Assignment
+* Load
+
+  * Full Load
+  * Incremental Load
+  * Initial Load
+  * Delta Load
+* ETL Architecture
+* ETL Tools (Informatica, Talend, SSIS, etc.)
+
+---
+
+### **🔹 ETL Testing**
+
+* Purpose and Importance
+* Types
+
+  * Data Validation
+  * Data Completeness
+  * Data Transformation Verification
+  * Data Integrity Testing
+  * Metadata Testing
+  * Performance Testing
+* Test Case Examples
+* Tools and Best Practices
+
+---
+
+### **🔹 OLAP (Online Analytical Processing)**
+
+* OLAP vs OLTP
+* OLAP Operations
+
+  * Slice
+  * Dice
+  * Drill-down
+  * Roll-up
+  * Pivot
+* Types of OLAP
+
+  * MOLAP (Multidimensional OLAP)
+  * ROLAP (Relational OLAP)
+  * HOLAP (Hybrid OLAP)
+* OLAP Cubes
+
+---
+
+### **🔹 Data Warehouse Design**
+
+* Top-Down vs Bottom-Up Approach
+* Data Mart Design
+
+  * Dependent
+  * Independent
+  * Logical
+* Granularity
+* Aggregations
+* Partitioning
+* Indexing and Performance Optimization
+
+---
+
+### **🔹 Metadata**
+
+* Business Metadata
+* Technical Metadata
+* Operational Metadata
+* Metadata Repository
+
+---
+
+### **🔹 Data Quality & Governance**
+
+* Data Accuracy
+* Completeness
+* Consistency
+* Timeliness
+* Validity
+* Data Stewardship
+* Master Data Management (MDM)
+
+---
+
+### **🔹 Tools & Technologies**
+
+* ETL Tools: Talend, Informatica, SSIS
+* Data Warehouse Appliances: Teradata, Netezza
+* Cloud Warehousing: Snowflake, BigQuery, Redshift, Azure Synapse
+* BI Tools: Power BI, Tableau, Looker
+
+---
+
+### **🔹 Advanced Concepts**
+
+* Real-time/Streaming Data Warehousing
+* ELT (Extract Load Transform)
+* Data Virtualization
+* Data Lake vs Data Warehouse
+* Data Lakehouse
+* Data Vault Modeling
+* Lambda and Kappa Architectures
+
+---
+
+---
+---
+
 ## 📦 Data Warehousing – All Concepts & Subconcepts 
 
 ---

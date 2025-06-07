@@ -3,6 +3,34 @@
 - [Overview](lessons/overview/readme.md)
 - [Concepts](lessons/concepts/readme.md)
 
+### [Fundamentals](lessons/fundamentals/readme.md) 
+
+### [Dimensional Modelling](lessons/dimensional_modelling/readme.md)
+
+### [Data Warehouse](lessons/data_warehouse/readme.md)
+- [Fact](lessons/fact/readme.md)
+- [Dimension](lessons/dimension/readme.md)
+    - [Slowly Changing Dimensions (SCD)](lessons/scd/readme.md)
+
+### [ETL](lessons/etl/readme.md)
+
+### [ETL Testing](lessons/etl_testing/readme.md)
+
+### [OLAP](lessons/olap/readme.md)
+
+### [Data Warehouse Design](lessons/data_warehouse_design/readme.md)
+
+### [Data Mart](lessons/data_mart/readme.md)
+
+### [Metadata](lessons/metadata/readme.md)
+
+### [Data Quality & Governance](lessons/data_quality_governance/readme.md)
+
+### [Tools & Technologies](lessons/tools_technologies/readme.md)
+
+### Topics
+
+---
 ### Core Concepts
 - [Definition & Purpose](lessons/definition_and_purpose/readme.md)  
 - [Characteristics](lessons/characteristics/readme.md)  
@@ -62,3 +90,4 @@
 - [Real-Time Data Warehousing](lessons/real_time_data_warehousing/readme.md)  
 - [Data Warehouse Automation](lessons/data_warehouse_automation/readme.md)  
 - [Cloud Data Warehousing](lessons/cloud_data_warehousing/readme.md)  
+ 
