@@ -6,11 +6,30 @@
 ### [Fundamentals](lessons/fundamentals/readme.md) 
 
 ### [Dimensional Modelling](lessons/dimensional_modelling/readme.md)
+- [Dimensional Modelling Process](lessons/dimensional_modelling_process/readme.md)
+- [Types of Keys](lessons/key_types/readme.md) 
+    - [Surrogate Key](lessons/surrogate_key/readme.md)
+    - [Smart ](lessons/smart_key/readme.md)
+    - [Business Key](lessons/business_key/readme.md)
+    - [Natural Key](lessons/natural_key/readme.md)
+    - [Degenerate Key](lessons/degenerate_key/readme.md)
+    - [Junk Key](lessons/junk_key/readme.md)
+- [Fact Table](lessons/fact_table/readme.md)
+- [Dimension Table](lessons/dimension_table/readme.md)
+- [Hierarchial Modelling](lessons/hierarchial_modelling/readme.md)
 
 ### [Data Warehouse](lessons/data_warehouse/readme.md)
-- [Fact](lessons/fact/readme.md)
-- [Dimension](lessons/dimension/readme.md)
-    - [Slowly Changing Dimensions (SCD)](lessons/scd/readme.md)
+- Fact and related: [Fact](lessons/fact/readme.md), [Fact Table](lessons/fact_table/readme.md)
+- Dimension and related:[Dimension](lessons/dimension/readme.md), [Dimension Table](lessons/dimension_table/readme.md)
+- [Slowly Changing Dimensions (SCD)](lessons/scd/readme.md)
+- [Schema Types](lessons/schema_types/readme.md): [Star Schema](lessons/star_schema/readme.md), [Snowflake Schema](lessons/snowflake_schema/readme.md), [Galaxy Schema](lessons/galaxy_schema/readme.md), [Flat Schema](lessons/flat_schema/readme.md), [Data Vault Schema](lessons/data_vault_schema/readme.md)
+
+- [Hierarchies in Dimensions](lessons/dimension_hierarchy/readme.md)
+- [Degenerate Dimensions](lessons/degenerate_dimensions/readme.md)
+- [Junk Dimensions](lessons/junk_dimensions/readme.md)
+- [Role-Playing Dimensions](lessons/role_playing_dimensions/readme.md)
+- [Conformed Dimensions](lessons/conformed_dimensions/readme.md)
+- [Factless Fact Tables](lessons/factless_fact_table/readme.md)
 
 ### [ETL](lessons/etl/readme.md)
 
