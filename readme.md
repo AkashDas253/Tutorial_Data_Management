@@ -5,7 +5,8 @@
 
 ### [Data Warehouse](lessons/data_warehouse/readme.md)
 - [Fundamentals](lessons/fundamentals/readme.md) 
-
+- [Data Lake](lessons/data_lake/lessons/data_lake/readme.md)
+- [Business Intelligence](lessons/business_intelligence/readme.md)
 
 ### [Data Warehouse Architecture](lessons/data_warehouse_architecture/readme.md)
 
@@ -25,8 +26,14 @@
 
 
 ### [Fact](lessons/fact/readme.md)
+- [Fact Types](lessons/fact_types/readme.md)
 - [Fact Table](lessons/fact_table/readme.md)
+- [Fact Table types](lessons/fact_table_types/readme.md)
+- [Steps to design fact tables](lessons/fact_table_design/readme.md)
+- [Year-to-Date facts](lessons/year_to_date_facts/readme.md)
+- [Nulls in facts](lessons/nulls_in_facts/readme.md)
 - [Factless Fact Tables](lessons/factless_fact_table/readme.md)
+- [Surrogate Key](lessons/surrogate_key/readme.md)
 
 ### [Dimension](lessons/dimension/readme.md)
 - [Dimension Table](lessons/dimension_table/readme.md)
@@ -35,6 +42,8 @@
 - [Junk Dimensions](lessons/junk_dimensions/readme.md)
 - [Role-Playing Dimensions](lessons/role_playing_dimensions/readme.md)
 - [Conformed Dimensions](lessons/conformed_dimensions/readme.md)
+- [Date dimensions](lessons/date_dimension/readme.md)
+- [Nulls in dimensions](lessons/nulls_in_dimensions/readme.md)
 
 ### [Slowly Changing Dimensions (SCD)](lessons/scd/readme.md)
 
@@ -65,7 +74,14 @@
 
 ### [ELT](lessons/elt/lessons/elt/readme.md)
 
-### [OLAP](lessons/olap/readme.md)
+
+### [OLAP](lessons/olap/lessons/olap/readme.md)
+- [OLAP vs OLTP](lessons/olap/lessons/olap_oltp/readme.md)
+- [OLAP Architecture](lessons/olap/lessons/olap_architecture/readme.md)
+- [OLAP Cube](lessons/olap/lessons/olap_cube/readme.md)
+- [OLAP Operations](lessons/olap/lessons/olap_operations/readme.md)
+- [Types of OLAP](lessons/olap/lessons/olap_types/readme.md)
+- [OLAP Types](lessons/olap/lessons/olap_tools/readme.md)
 
 ### [Data Warehouse Design](lessons/data_warehouse_design/readme.md)
 
