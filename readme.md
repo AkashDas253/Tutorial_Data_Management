@@ -64,7 +64,23 @@
 - [Data Vault Schema](lessons/data_vault_schema/readme.md)
 
 
-### [ETL](lessons/etl/lessons/etl/readme.md)
+### ETL and ELT
+- [Concepts](lessons/etl_elt/lessons/concepts/readme.md)
+- [Data Integration](lessons/etl_elt/lessons/data_integration/readme.md)
+- [ETL Process](lessons/etl/lessons/etl_process/readme.md)
+- [ELT Process](lessons/elt/lessons/etl_process/readme.md)
+- [Transformation Techniques](lessons/etl_elt/lessons/transformation_techniques/readme.md)
+- [Orchestration and Scheduling](lessons/etl_elt/lessons/orchestration_scheduling/readme.md)
+- [Performance Optimization](lessons/etl_elt/lessons/performance_optimization/readme.md)
+- [Error Handling and Logging](lessons/etl_elt/lessons/error_handling_logging/readme.md)
+- [Data Governance and Quality](lessons/etl_elt/lessons/data_governance_quality/readme.md)
+- [Tools and Technologies](lessons/etl_elt/lessons/tools_technologies/readme.md)
+- [Storage and Processing Targets](lessons/etl_elt/lessons/storage_processing_targets/readme.md)
+- [Real-time and Streaming ETL/ELT](lessons/etl_elt/lessons/real_time_streaming/readme.md)
+- [Cloud vs On-Premise](lessons/etl_elt/lessons/cloud_on_premise/readme.md)
+- [Security and Compliance](lessons/etl_elt/lessons/security_compliance/readme.md)
+
+#### [ETL](lessons/etl/lessons/etl/readme.md)
 - [ETL Process](lessons/etl/lessons/etl_process/readme.md)
 - [ETL Extraction](lessons/etl/lessons/etl_extraction/readme.md): [ETL Extract Types](lessons/etl/lessons/etl_extract_types/readme.md)
 - [ETL Transformation](lessons/etl/lessons/etl_transformation/readme.md): [ETL Transformation Types](lessons/etl/lessons/etl_transformation_types/readme.md)
@@ -73,13 +89,13 @@
 - [ETL Tools](lessons/etl/lessons/etl_tools/readme.md)
 
 
-### [ETL Testing](lessons/etl/lessons/etl_testing/readme.md)
+#### [ETL Testing](lessons/etl/lessons/etl_testing/readme.md)
 - [ETL Testing Cycle](lessons/etl/lessons/etl_testing_cycle/readme.md)
 - [ETL Testing Types](lessons/etl/lessons/etl_testing_types/readme.md): [Data Validation Testing](lessons/etl/lessons/data_validation_testing/readme.md), [Data Completeness Testing](lessons/etl/lessons/data_completeness_testing/readme.md), [Data Transformation Testing](lessons/etl/lessons/data_transformation_testing/readme.md), [Data Integrity Testing](lessons/etl/lessons/data_integrity_testing/readme.md), [Performance Testing](lessons/etl/lessons/performance_testing/readme.md), [Regression Testing](lessons/etl/lessons/regression_testing/readme.md), [Metadata Testing](lessons/etl/lessons/metadata_testing/readme.md), [Null/Default Testing](lessons/etl/lessons/null_default_testing/readme.md), [Schema Testing](lessons/etl/lessons/schema_testing/readme.md)
 
 
-### [ELT](lessons/elt/lessons/elt/readme.md)
-
+#### [ELT](lessons/elt/lessons/elt/readme.md)
+- [ELT Process](lessons/elt/lessons/etl_process/readme.md)
 
 ### [OLAP](lessons/olap/lessons/olap/readme.md)
 - [OLAP vs OLTP](lessons/olap/lessons/olap_oltp/readme.md)
