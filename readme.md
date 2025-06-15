@@ -1,28 +1,26 @@
-## Data Warehousing
+## Data Management
+
+### Data Warehouse
 
 - [Overview](lessons/data_warehouse/lessons/overview/readme.md)
 - [Concepts](lessons/data_warehouse/lessons/concepts/readme.md)
 
-### [Data Warehouse](lessons/data_warehouse/lessons/data_warehouse/readme.md)
+#### [Data Warehouse Basics](lessons/data_warehouse/lessons/data_warehouse/readme.md)
 - [Fundamentals](lessons/data_warehouse/lessons/fundamentals/readme.md) 
 - [Data Lake](lessons/data_warehouse/lessons/data_lake/lessons/data_warehouse/lessons/data_lake/readme.md)
 - [Business Intelligence](lessons/data_warehouse/lessons/business_intelligence/readme.md)
 - [Data Mart](lessons/data_warehouse/lessons/data_mart/readme.md)
 
+#### [Data Warehouse Architecture](lessons/data_warehouse/lessons/data_warehouse_architecture/readme.md)
 
+#### [Data Warehouse Design](lessons/data_warehouse/lessons/data_warehouse_design/readme.md)
 
-### [Data Warehouse Architecture](lessons/data_warehouse/lessons/data_warehouse_architecture/readme.md)
-
-### [Data Warehouse Design](lessons/data_warehouse/lessons/data_warehouse_design/readme.md)
-
-### [Dimensional Modelling](lessons/data_warehouse/lessons/dimensional_modelling/readme.md)
+#### [Dimensional Modelling](lessons/data_warehouse/lessons/dimensional_modelling/readme.md)
 - [Dimensional Modelling Note](lessons/data_warehouse/lessons/dimensional_modelling_note/readme.md)
 - [Dimensional Modelling Process](lessons/data_warehouse/lessons/dimensional_modelling_process/readme.md)
 - [Hierarchial Modelling](lessons/data_warehouse/lessons/hierarchial_modelling/readme.md)
 
-
-
-### [Types of Keys](lessons/data_warehouse/lessons/key_types/readme.md) 
+#### [Types of Keys](lessons/data_warehouse/lessons/key_types/readme.md) 
 - [Surrogate Key](lessons/data_warehouse/lessons/surrogate_key/readme.md)
 - [Smart Key](lessons/data_warehouse/lessons/smart_key/readme.md)
 - [Business Key](lessons/data_warehouse/lessons/business_key/readme.md)
@@ -30,8 +28,7 @@
 - [Degenerate Key](lessons/data_warehouse/lessons/degenerate_key/readme.md)
 - [Junk Key](lessons/data_warehouse/lessons/junk_key/readme.md)
 
-
-### [Fact](lessons/data_warehouse/lessons/fact/readme.md)
+#### [Fact](lessons/data_warehouse/lessons/fact/readme.md)
 - [Fact Types](lessons/data_warehouse/lessons/fact_types/readme.md)
 - [Fact Table](lessons/data_warehouse/lessons/fact_table/readme.md)
 - [Fact Table types](lessons/data_warehouse/lessons/fact_table_types/readme.md)
@@ -41,7 +38,7 @@
 - [Factless Fact Tables](lessons/data_warehouse/lessons/factless_fact_table/readme.md)
 - [Surrogate Key](lessons/data_warehouse/lessons/surrogate_key/readme.md)
 
-### [Dimension](lessons/data_warehouse/lessons/dimension/readme.md)
+#### [Dimension](lessons/data_warehouse/lessons/dimension/readme.md)
 - [Dimension Table](lessons/data_warehouse/lessons/dimension_table/readme.md)
 - [Hierarchies in Dimensions](lessons/data_warehouse/lessons/dimension_hierarchy/readme.md)
 - [Degenerate Dimensions](lessons/data_warehouse/lessons/degenerate_dimensions/readme.md)
@@ -51,11 +48,9 @@
 - [Date dimensions](lessons/data_warehouse/lessons/date_dimension/readme.md)
 - [Nulls in dimensions](lessons/data_warehouse/lessons/nulls_in_dimensions/readme.md)
 
-### [Slowly Changing Dimensions (SCD)](lessons/data_warehouse/lessons/scd/readme.md)
+#### [Slowly Changing Dimensions (SCD)](lessons/data_warehouse/lessons/scd/readme.md)
 
-
-
-### [Schema](lessons/data_warehouse/lessons/schema/readme.md)
+#### [Schema](lessons/data_warehouse/lessons/schema/readme.md)
 - [Schema Types](lessons/data_warehouse/lessons/schema_types/readme.md)
 - [Star Schema](lessons/data_warehouse/lessons/star_schema/readme.md)
 - [Snowflake Schema](lessons/data_warehouse/lessons/snowflake_schema/readme.md)
@@ -63,12 +58,18 @@
 - [Flat Schema](lessons/data_warehouse/lessons/flat_schema/readme.md)
 - [Data Vault Schema](lessons/data_warehouse/lessons/data_vault_schema/readme.md)
 
+#### [Metadata](lessons/data_warehouse/lessons/metadata/readme.md)
+
+#### [Data Quality & Governance](lessons/data_warehouse/lessons/data_quality_governance/readme.md)
+
+#### [Tools & Technologies](lessons/data_warehouse/lessons/tools_technologies/readme.md)
+
+---
 
 ### ETL and ELT
 - [Concepts](lessons/etl_elt/lessons/concepts/readme.md)
 - [Data Integration](lessons/etl_elt/lessons/data_integration/readme.md)
-- [ETL Process](lessons/etl/lessons/etl_process/readme.md)
-- [ELT Process](lessons/elt/lessons/etl_process/readme.md)
+- Process flows:  [ETL Process](lessons/etl/lessons/etl_process/readme.md), [ELT Process](lessons/elt/lessons/etl_process/readme.md)
 - [Transformation Techniques](lessons/etl_elt/lessons/transformation_techniques/readme.md)
 - [Orchestration and Scheduling](lessons/etl_elt/lessons/orchestration_scheduling/readme.md)
 - [Performance Optimization](lessons/etl_elt/lessons/performance_optimization/readme.md)
@@ -97,6 +98,8 @@
 #### [ELT](lessons/elt/lessons/elt/readme.md)
 - [ELT Process](lessons/elt/lessons/etl_process/readme.md)
 
+---
+
 ### [OLAP](lessons/olap/lessons/olap/readme.md)
 - [OLAP vs OLTP](lessons/olap/lessons/olap_oltp/readme.md)
 - [OLAP Architecture](lessons/olap/lessons/olap_architecture/readme.md)
@@ -105,13 +108,22 @@
 - [Types of OLAP](lessons/olap/lessons/olap_types/readme.md)
 - [OLAP Types](lessons/olap/lessons/olap_tools/readme.md)
 
+---
 
+### Test Data Management
+- [TDM](lessons/tdm/lessons/tdm/readme.md)
+- [Goals](lessons/tdm/lessons/goals/readme.md)
+- [Core Components of TDM](lessons/tdm/lessons/core_components/readme.md)
+- [Types of Test Data](lessons/tdm/lessons/test_data_types/readme.md)
+- [TDM Lifecycle Phases](lessons/tdm/lessons/tdm_lifecycle/readme.md)
+- [TDM in Testing Stages](lessons/tdm/lessons/tdm_in_testing_stages/readme.md)
+- [Techniques](lessons/tdm/lessons/techniques/readme.md)
+- [Tools for TDM](lessons/tdm/lessons/tools/readme.md)
+- [Data Privacy and Compliance](lessons/tdm/lessons/data_privacy_compliance/readme.md)
+- [Challenges](lessons/tdm/lessons/challenges/readme.md)
+- [Benefits](lessons/tdm/lessons/benefits/readme.md)
 
-### [Metadata](lessons/data_warehouse/lessons/metadata/readme.md)
-
-### [Data Quality & Governance](lessons/data_warehouse/lessons/data_quality_governance/readme.md)
-
-### [Tools & Technologies](lessons/data_warehouse/lessons/tools_technologies/readme.md)
+---
 
 ### Topics
 
@@ -149,6 +161,7 @@
 ### Performance Tuning
 - [Optimization Techniques](lessons/data_warehouse/lessons/optimization_techniques/readme.md)  
 - [Query Optimization](lessons/data_warehouse/lessons/query_optimization/readme.md)
+
 
 ---
 ---
