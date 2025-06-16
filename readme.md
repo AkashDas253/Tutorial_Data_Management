@@ -110,10 +110,11 @@
 
 ---
 
-### Test Data Management
+### Test Data Management(TDM)
 - [TDM](lessons/tdm/lessons/tdm/readme.md)
 - [Goals](lessons/tdm/lessons/goals/readme.md)
 - [Core Components of TDM](lessons/tdm/lessons/core_components/readme.md)
+    - [Data Masking](lessons/tdm/lessons/data_masking/readme.md)
 - [Types of Test Data](lessons/tdm/lessons/test_data_types/readme.md)
 - [TDM Lifecycle Phases](lessons/tdm/lessons/tdm_lifecycle/readme.md)
 - [TDM in Testing Stages](lessons/tdm/lessons/tdm_in_testing_stages/readme.md)
@@ -122,7 +123,7 @@
 - [Data Privacy and Compliance](lessons/tdm/lessons/data_privacy_compliance/readme.md)
 - [Challenges](lessons/tdm/lessons/challenges/readme.md)
 - [Benefits](lessons/tdm/lessons/benefits/readme.md)
-
+- [Test Data Generation](lessons/tdm/lessons/tdg/readme.md)
 ---
 
 ### Topics
