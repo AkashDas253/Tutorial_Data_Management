@@ -114,6 +114,7 @@
 - [TDM](lessons/tdm/lessons/tdm/readme.md)
 - [Goals](lessons/tdm/lessons/goals/readme.md)
 - [Core Components of TDM](lessons/tdm/lessons/core_components/readme.md)
+    - [Data Profiling](lessons/tdm/lessons/data_profiling/readme.md)
     - [Data Masking](lessons/tdm/lessons/data_masking/readme.md)
 - [Types of Test Data](lessons/tdm/lessons/test_data_types/readme.md)
 - [TDM Lifecycle Phases](lessons/tdm/lessons/tdm_lifecycle/readme.md)
@@ -124,6 +125,7 @@
 - [Challenges](lessons/tdm/lessons/challenges/readme.md)
 - [Benefits](lessons/tdm/lessons/benefits/readme.md)
 - [Test Data Generation](lessons/tdm/lessons/tdg/readme.md)
+
 ---
 
 ### Topics
