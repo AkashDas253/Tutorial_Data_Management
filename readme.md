@@ -1,4 +1,5 @@
 ## Data Management
+- [Data Management](lessons/data_management/lessons/data_management/readme.md)
 
 ### Data Warehouse
 
