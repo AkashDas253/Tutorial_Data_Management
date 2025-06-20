@@ -1,80 +1,112 @@
-## Data Masking in TDM
+## Data Masking in Test Data Management (TDM)
 
 ---
 
-### **Overview**
+### Definition
 
-**Data Masking** is a TDM technique used to **obscure sensitive or personally identifiable information (PII)** in non-production environments while preserving data format and usability. It is vital for **data privacy**, **regulatory compliance**, and **security during testing**.
-
----
-
-### **Objectives of Data Masking**
-
-* Protect confidential and sensitive data (e.g., names, SSNs, credit card numbers).
-* Enable testing on real-like data without exposing actual information.
-* Ensure compliance with regulations like **GDPR**, **HIPAA**, **PCI DSS**, **CCPA**.
-* Prevent internal data breaches or misuse in test environments.
+**Data Masking** is the process of transforming sensitive data into a realistic but fictional version to protect confidential information while preserving its utility for testing, development, or analytics.
 
 ---
 
-### **Types of Data Masking**
+### Purpose
 
-| **Type**                      | **Description**                                                                                          |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Static Data Masking**       | Applies masking to a static copy of the data stored in a test database.                                  |
-| **Dynamic Data Masking**      | Masks data in real-time as it is retrieved by unauthorized users without altering the original database. |
-| **On-the-fly Masking**        | Applies masking during data transfer or ETL without persisting the masked data.                          |
-| **Deterministic Masking**     | Replaces the same input value with the same masked value every time.                                     |
-| **Non-deterministic Masking** | Generates random output values that are different for each run.                                          |
+* Ensure compliance with data privacy laws (e.g., GDPR, HIPAA, CCPA)
+* Prevent unauthorized access to Personally Identifiable Information (PII), Protected Health Information (PHI), or financial data
+* Safely use production-like data in non-production environments
+* Support secure DevOps and testing workflows
 
 ---
 
-### **Common Data Masking Techniques**
+### Key Characteristics
 
-| **Technique**        | **Description**                                                         |
-| -------------------- | ----------------------------------------------------------------------- |
-| **Substitution**     | Replaces real values with realistic fake data (e.g., names with names). |
-| **Shuffling**        | Randomizes data within the same column or set.                          |
-| **Encryption**       | Converts data into ciphertext; reversible with keys.                    |
-| **Tokenization**     | Replaces real values with mapped tokens; requires secure mapping.       |
-| **Nulling Out**      | Replaces sensitive values with null or blank entries.                   |
-| **Data Variance**    | Adds random noise to data (e.g., changing salary slightly).             |
-| **Masking Patterns** | Keeps format but hides part of data (e.g., ****-****-1234).             |
-| **Blurring**         | Groups similar data into general ranges (e.g., age 20–30).              |
+| Aspect                | Description                                                                   |
+| --------------------- | ----------------------------------------------------------------------------- |
+| **Irreversible**      | Masked data should not be revertible to original values                       |
+| **Consistent**        | Same input value should always produce the same masked output where needed    |
+| **Format-Preserving** | Masked values maintain the original format (e.g., phone numbers, emails)      |
+| **Non-Identifiable**  | No individual can be identified from the masked data                          |
+| **Test-Ready**        | Masked data must retain business rules and relationships for testing accuracy |
 
 ---
 
-### **Popular Data Masking Tools**
+### Types of Data Masking
 
-| Tool                                   | Description                                                         |
-| -------------------------------------- | ------------------------------------------------------------------- |
-| **Informatica TDM**                    | Offers static/dynamic masking, subsetting, and compliance features. |
-| **Delphix**                            | Provides data virtualization with integrated masking.               |
-| **CA Test Data Manager (Broadcom)**    | Advanced rule-based masking with synthetic data support.            |
-| **IBM InfoSphere Optim**               | Database-centric masking, encryption, and archiving.                |
-| **Redgate Data Masker**                | SQL Server masking with predefined rules.                           |
-| **Oracle Data Masking and Subsetting** | Integrated with Oracle DB for secure test environments.             |
-
----
-
-### **Regulatory Requirements Supported**
-
-| Regulation  | Data Masking Role                                      |
-| ----------- | ------------------------------------------------------ |
-| **GDPR**    | Anonymization and pseudonymization of EU citizen data. |
-| **HIPAA**   | Mask PHI (Personal Health Information).                |
-| **PCI DSS** | Mask credit card and payment data.                     |
-| **CCPA**    | Hide Californian consumer identity details.            |
+| Type                      | Description                                                   |
+| ------------------------- | ------------------------------------------------------------- |
+| **Static Masking**        | Masks data at rest in a database copy before testing          |
+| **Dynamic Masking**       | Applies masking on-the-fly during data access (read-only)     |
+| **Deterministic Masking** | Same input always produces the same masked value              |
+| **Randomized Masking**    | Output varies for the same input, useful for anonymization    |
+| **Conditional Masking**   | Applies masking based on business rules or roles              |
+| **Partial Masking**       | Only part of the field is masked (e.g., last 4 digits of SSN) |
 
 ---
 
-### **Best Practices for Data Masking**
+### Masking Techniques
 
-* Classify and identify sensitive data fields before masking.
-* Use deterministic masking where data correlation is necessary (e.g., joins).
-* Automate masking as part of data provisioning pipelines.
-* Maintain referential integrity across tables.
-* Document and audit all masking rules and access logs.
-* Avoid re-identification risks—don’t retain mapping for tokenized data unless needed.
+| Technique                 | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| **Substitution**          | Replace data with a look-up value from another source      |
+| **Shuffling**             | Mix values within the same column                          |
+| **Encryption**            | Encrypt sensitive data (requires decryption key)           |
+| **Nulling**               | Replace with null or default values                        |
+| **Masking with Patterns** | Replace values while preserving format (e.g., XXX-XX-1234) |
+| **Hashing**               | Use hash functions to produce fixed-length masked values   |
+| **Redaction**             | Replace values with fixed characters (e.g., \*\*\*\*\*)    |
+| **Tokenization**          | Replace sensitive values with non-sensitive placeholders   |
 
 ---
+
+### Common Fields to Mask
+
+* Names
+* Email addresses
+* Phone numbers
+* Social Security Numbers (SSNs)
+* Credit card numbers
+* Bank account details
+* Health records
+* IP addresses
+* User credentials
+
+---
+
+### Tools for Data Masking
+
+| Category                 | Tools                                                           |
+| ------------------------ | --------------------------------------------------------------- |
+| **Commercial**           | Informatica TDM, Delphix, CA Test Data Manager, IBM Optim       |
+| **Open Source / Custom** | DataMasque, Faker (Python), Mockaroo, custom SQL/Python scripts |
+
+---
+
+### Use Cases
+
+* Sharing production-like data with QA, UAT, or Dev teams
+* Migrating data to cloud environments securely
+* Enabling compliance audits with anonymized datasets
+* Performing training or demos using realistic but safe data
+* Supporting secure automation and CI/CD pipelines
+
+---
+
+### Challenges
+
+| Challenge                       | Description                                                         |
+| ------------------------------- | ------------------------------------------------------------------- |
+| **Preserving Data Integrity**   | Ensuring referential and business logic consistency after masking   |
+| **Performance Impact**          | Large volumes can slow down masking processes                       |
+| **Reusability and Consistency** | Maintaining consistent masked values across systems or environments |
+| **Multi-System Coordination**   | Synchronizing masking across related systems or databases           |
+| **Sensitive Data Discovery**    | Identifying all places where sensitive data exists before masking   |
+
+---
+
+### Best Practices
+
+* Profile and classify data before applying masking
+* Combine masking with subsetting for efficient test datasets
+* Use format-preserving and relationship-aware masking
+* Mask at the earliest stage of data provisioning
+* Integrate masking workflows into CI/CD pipelines
+* Monitor and audit masked data regularly for compliance

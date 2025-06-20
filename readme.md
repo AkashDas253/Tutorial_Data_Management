@@ -82,7 +82,7 @@
 - [Cloud vs On-Premise](lessons/etl_elt/lessons/cloud_on_premise/readme.md)
 - [Security and Compliance](lessons/etl_elt/lessons/security_compliance/readme.md)
 
-#### [ETL](lessons/etl/lessons/etl/readme.md)
+### [ETL](lessons/etl/lessons/etl/readme.md)
 - [ETL Process](lessons/etl/lessons/etl_process/readme.md)
 - [ETL Extraction](lessons/etl/lessons/etl_extraction/readme.md): [ETL Extract Types](lessons/etl/lessons/etl_extract_types/readme.md)
 - [ETL Transformation](lessons/etl/lessons/etl_transformation/readme.md): [ETL Transformation Types](lessons/etl/lessons/etl_transformation_types/readme.md)
@@ -91,7 +91,7 @@
 - [ETL Tools](lessons/etl/lessons/etl_tools/readme.md)
 
 
-#### [ETL Testing](lessons/etl/lessons/etl_testing/readme.md)
+### [ETL Testing](lessons/etl/lessons/etl_testing/readme.md)
 - [ETL Testing Cycle](lessons/etl/lessons/etl_testing_cycle/readme.md)
 - [ETL Testing Types](lessons/etl/lessons/etl_testing_types/readme.md): [Data Validation Testing](lessons/etl/lessons/data_validation_testing/readme.md), [Data Completeness Testing](lessons/etl/lessons/data_completeness_testing/readme.md), [Data Transformation Testing](lessons/etl/lessons/data_transformation_testing/readme.md), [Data Integrity Testing](lessons/etl/lessons/data_integrity_testing/readme.md), [Performance Testing](lessons/etl/lessons/performance_testing/readme.md), [Regression Testing](lessons/etl/lessons/regression_testing/readme.md), [Metadata Testing](lessons/etl/lessons/metadata_testing/readme.md), [Null/Default Testing](lessons/etl/lessons/null_default_testing/readme.md), [Schema Testing](lessons/etl/lessons/schema_testing/readme.md)
 
@@ -111,21 +111,19 @@
 
 ---
 
-### Test Data Management(TDM)
+### [Test Data Management(TDM)](lessons/tdm/readme.md)
 - [TDM](lessons/tdm/lessons/tdm/readme.md)
-- [Goals](lessons/tdm/lessons/goals/readme.md)
-- [Core Components of TDM](lessons/tdm/lessons/core_components/readme.md)
-    - [Data Profiling](lessons/tdm/lessons/data_profiling/readme.md)
-    - [Data Masking](lessons/tdm/lessons/data_masking/readme.md)
-- [Types of Test Data](lessons/tdm/lessons/test_data_types/readme.md)
-- [TDM Lifecycle Phases](lessons/tdm/lessons/tdm_lifecycle/readme.md)
-- [TDM in Testing Stages](lessons/tdm/lessons/tdm_in_testing_stages/readme.md)
-- [Techniques](lessons/tdm/lessons/techniques/readme.md)
-- [Tools for TDM](lessons/tdm/lessons/tools/readme.md)
-- [Data Privacy and Compliance](lessons/tdm/lessons/data_privacy_compliance/readme.md)
-- [Challenges](lessons/tdm/lessons/challenges/readme.md)
-- [Benefits](lessons/tdm/lessons/benefits/readme.md)
+- [Data Sources](lessons/tdm/lessons/data_sources/readme.md)
+- [Data Subsetting](lessons/tdm/lessons/data_subsetting/readme.md)
+- [Data Discovery and Profiling](lessons/tdm/lessons/data_discovery_and_profiling/readme.md)
+- [Data Masking](lessons/tdm/lessons/data_masking/readme.md)
 - [Test Data Generation](lessons/tdm/lessons/tdg/readme.md)
+- [Data Provisioning](lessons/tdm/lessons/data_provisioning/readme.md)
+- [Data Refreshing](lessons/tdm/lessons/data_refreshing/readme.md)
+- [Version Control](lessons/tdm/lessons/version_control/readme.md)
+- [Environment Synchronization](lessons/tdm/lessons/environment_synchronization/readme.md)
+- [Data Archiving and Retention](lessons/tdm/lessons/data_archiving_and_retention/readme.md)
+- [Tools for TDM](lessons/tdm/lessons/tools/readme.md): [Delphix](https://github.com/AkashDas253/Tutorial_Tools/blob/master/tools/delplix/readme.md)
 
 ---
 

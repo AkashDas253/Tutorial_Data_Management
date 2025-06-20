@@ -35,7 +35,7 @@
 
 ---
 
-### **4. Data Generation**
+### **4. Test Data Generation**
 
 * Creates synthetic data based on business rules and test scenarios.
 * Useful when:
@@ -102,5 +102,3 @@
 * Helps in defining accurate subsetting and masking rules.
 
 ---
-
-Let me know if you want these as a table, visualized as a Mermaid diagram, or explained with real-world examples.
