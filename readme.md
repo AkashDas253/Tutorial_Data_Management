@@ -123,7 +123,7 @@
 - [Version Control](lessons/tdm/lessons/version_control/readme.md)
 - [Environment Synchronization](lessons/tdm/lessons/environment_synchronization/readme.md)
 - [Data Archiving and Retention](lessons/tdm/lessons/data_archiving_and_retention/readme.md)
-- [Tools for TDM](lessons/tdm/lessons/tools/readme.md): [Delphix](https://github.com/AkashDas253/Tutorial_Tools/blob/master/tools/delplix/readme.md)
+- [Tools for TDM](lessons/tdm/lessons/tools/readme.md): [Delphix](https://github.com/AkashDas253/Tutorial_Tools/blob/master/tools/delphix/readme.md)
 
 ---
 
