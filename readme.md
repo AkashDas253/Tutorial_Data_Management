@@ -67,6 +67,10 @@
 
 ---
 
+### [Data Management Processes](lessons/data_management_processes/readme.md)
+- [Data Profiling](lessons/data_management_processes/lessons/data_profiling/readme.md)
+---
+
 ### ETL and ELT
 - [Concepts](lessons/etl_elt/lessons/concepts/readme.md)
 - [Data Integration](lessons/etl_elt/lessons/data_integration/readme.md)
