@@ -29,7 +29,7 @@
 ### [Data Refreshing](lessons/data_refreshing/readme.md)
 
 ### [Version Control](lessons/version_control/readme.md)
-- [Data Virtualization](lessons/data_virttuqlization/readme.md)
+- [Data Virtualization](lessons/data_virtualization/readme.md)
 - 
 ### [Environment Synchronization](lessons/environment_synchronization/readme.md)
 
