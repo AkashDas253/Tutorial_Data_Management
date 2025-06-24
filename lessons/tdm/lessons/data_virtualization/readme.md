@@ -106,7 +106,7 @@
 
 ---
 
-### 🟩 **Comparison: Virtualization vs Traditional Copy**
+### **Comparison: Virtualization vs Traditional Copy**
 
 | Aspect          | Virtualization | Traditional Copy |
 | --------------- | -------------- | ---------------- |
