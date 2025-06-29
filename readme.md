@@ -24,9 +24,3 @@
 ---
 
 ### [Test Data Management(TDM)](lessons/tdm/readme.md)
-
----
-
-### Topics
-
----
