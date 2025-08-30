@@ -1,0 +1,32 @@
+# ETL and ELT
+
+- [Concepts](lessons/concepts/readme.md)
+
+- [Data Integration](lessons/data_integration/readme.md)
+
+- [ETL Process](lessons/etl_process/readme.md)
+    - [Extract](lessons/etl_extract/readme.md)
+    - [Transform](lessons/etl_transform/readme.md)
+    - [Load](lessons/etl_load/readme.md)
+
+- [ELT Process](lessons/elt_process/readme.md)
+
+- [Transformation Techniques](lessons/transformation_techniques/readme.md)
+
+- [Orchestration and Scheduling](lessons/orchestration_scheduling/readme.md)
+
+- [Performance Optimization](lessons/performance_optimization/readme.md)
+
+- [Error Handling and Logging](lessons/error_handling_logging/readme.md)
+
+- [Data Governance and Quality](lessons/data_governance_quality/readme.md)
+
+- [Tools and Technologies](lessons/tools_technologies/readme.md)
+
+- [Storage and Processing Targets](lessons/storage_processing_targets/readme.md)
+
+- [Real-time and Streaming ETL/ELT](lessons/real_time_streaming/readme.md)
+
+- [Cloud vs On-Premise](lessons/cloud_on_premise/readme.md)
+
+- [Security and Compliance](lessons/security_compliance/readme.md)
